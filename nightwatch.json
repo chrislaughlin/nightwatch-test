@@ -28,9 +28,8 @@
                 "path" : ""
             },
             "desiredCapabilities": {
-                "browserName" : "phantomjs",
-                "javascriptEnabled" : true,
-                "phantomjs.binary.path" : "node_modules/phantomjs/bin/phantomjs"
+                "browserName" : "firefox",
+                "javascriptEnabled" : true
             }
         }
     }
