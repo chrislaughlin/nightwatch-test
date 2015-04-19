@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/chrislaughlin/nightwatch-test",
   "devDependencies": {
-    "nightwatch": "^0.5.36"
+    "nightwatch": "^0.5.36",
+    "phantomjs": "~1.9.16",
+    "grunt": "~0.4.5",
+    "grunt-nightwatchjs": "~1.3.0"
   }
 }

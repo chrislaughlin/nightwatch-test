@@ -18,7 +18,7 @@
     },
 
     "test_settings" : {
-        "default" : {
+        "ff" : {
             "launch_url" : "http://localhost",
             "selenium_port"  : 4444,
             "selenium_host"  : "localhost",
@@ -30,6 +30,36 @@
             "desiredCapabilities": {
                 "browserName" : "firefox",
                 "javascriptEnabled" : true
+            }
+        },
+        "chrome" : {
+            "launch_url" : "http://localhost",
+            "selenium_port"  : 4444,
+            "selenium_host"  : "localhost",
+            "silent": true,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : ""
+            },
+            "desiredCapabilities": {
+                "browserName" : "chrome",
+                "javascriptEnabled" : true
+            }
+        },
+        "phan" : {
+            "launch_url" : "http://localhost",
+            "selenium_port"  : 4444,
+            "selenium_host"  : "localhost",
+            "silent": true,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : ""
+            },
+            "desiredCapabilities": {
+                "browserName" : "phantomjs",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "phantomjs.binary.path" : "node_modules/phantomjs/bin/phantomjs"
             }
         }
     }
