@@ -12,13 +12,13 @@ module.exports = {
             .cssProperty(".box", "background-color", "rgba(0, 0, 0, 1)")
             .click(".red")
             .assert
-            .cssProperty(".box", "background-color", "red")
+            .cssProperty(".box", "background-color", "rgba(255, 0, 0, 1)")
             .click(".green")
             .assert
-            .cssProperty(".box", "background-color", "green")
+            .cssProperty(".box", "background-color", "rgba(0, 128, 0, 1)")
             .click(".blue")
             .assert
-            .cssProperty(".box", "background-color", "blue")
+            .cssProperty(".box", "background-color", "rgba(0, 0, 255, 1)")
     }
 };
 
